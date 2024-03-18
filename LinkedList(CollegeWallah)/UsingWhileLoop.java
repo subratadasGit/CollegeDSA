@@ -1,5 +1,6 @@
-public class newBasicLL {
 
+public class UsingWhileLoop {
+    
     static class Node{
         int data;
         Node Next;
@@ -8,9 +9,9 @@ public class newBasicLL {
             this.data = data;
         }
     }
-        public static void main(String[] args) {
-    
-            Node a = new Node(0);
+
+    public static void main(String[] args) {
+         Node a = new Node(0);
             Node b = new Node(2);
             Node c = new Node(3);
             Node d = new Node(4);
@@ -24,18 +25,11 @@ public class newBasicLL {
 
             Node temp = a;
 
-           for(int i = 1 ; i<= 5 ; i++){
+            while (temp!=null) {
+                
+                System.out.println(temp.data);
+                temp=temp.Next;
+            }
 
-
-            System.out.println(temp.data);
-            temp = temp.Next;
-
-
-
-           }
-
-            
-    
-    
-        }
     }
+}
