@@ -10,7 +10,7 @@ static class Node{
 }
     public static void main(String[] args) {
 
-        Node a = new Node(0);
+        Node a = new Node(1);
         Node b = new Node(2);
         Node c = new Node(3);
         Node d = new Node(4);
